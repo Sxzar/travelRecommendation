@@ -106,8 +106,13 @@ textarea {
     padding: 1rem 0;
     background-color: var(--color-primary);
     color: white;
-    position: relative;
+    /* Make header stick to the top when scrolling */
+    position: sticky;
+    top: 0;
     width: 100%;
+    z-index: 999;
+    /* subtle separation when stuck */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 
     .mainHeader__container {
         display: flex;
