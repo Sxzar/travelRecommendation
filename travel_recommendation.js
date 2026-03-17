@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function redirectToHome(keyword) {
-        window.location.href = `./travel_recommendation.html?search=${encodeURIComponent(keyword)}`;
+        window.location.href = `./index.html?search=${encodeURIComponent(keyword)}`;
     }
 
     function handleSearch(keyword) {

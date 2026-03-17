@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us</title>
+  <title>Travel Bloom</title>
   <link rel="stylesheet" href="./travel_recommendation.css" />
 </head>
 
@@ -19,10 +19,10 @@
         <span></span>
         <span></span>
       </label>
-       <nav class="mainHeader__nav">
+      <nav class="mainHeader__nav">
         <ul class="mainHeader__nav-list">
           <li>
-            <a href="./travel_recommendation.html">Home</a>
+            <a href="./index.html">Home</a>
           </li>
 
           <li>
@@ -49,42 +49,24 @@
       </form>
     </div>
   </header>
-  <main>
-    <section class="container contact">
-      <h1>Contact us</h1>
-      <form action="#" class="contact-form" method="post">
-        <div class="form-grid">
-          <div>
-            <label for="firstName">First Name</label>
-            <input type="text" name="firstName" id="firstName" required>
-          </div>
-          <div>
-            <label for="lastName">Last Name</label>
-            <input type="text" name="lastName" id="lastName" required>
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" required>
-          </div>
-          <div>
-            <label for="phone">Phone</label>
-            <input type="text" name="phone" id="phone">
-          </div>
-          <div class="full-width">
-            <label for="subject">Subject</label>
-            <input type="text" name="subject" id="subject">
-          </div>
-          <div class="full-width">
-            <label for="message">Message</label>
-            <textarea type="text" name="message" id="message"></textarea>
-          </div>
-          <button type="submit" class="primaryButton">Submit</button>
-        </div>
 
-      </form>
-    </section>
-  </main>
-
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="container hero__content">
+      <h1>Explore dream destination</h1>
+      <p>
+        Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
+        enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
+        exercitation amet. Nisi animcupidatat excepteur officia. Reprehenderit
+        nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor
+        minim nulla est proident..
+      </p>
+      <a href="#" class="primaryButton">Book now</a>
+    </div>
+  </section>
+  <section class="recommendations container">
+    <div id="results" class="resultsGrid"></div>
+  </section>
   <!-- scripts -->
   <script src="./travel_recommendation.js"></script>
 </body>
